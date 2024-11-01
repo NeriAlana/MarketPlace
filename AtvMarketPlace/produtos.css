@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/fundo.jpg');
+    background-size:cover; 
+    backdrop-filter:blur(10px); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    position: relative;
+    color: rgba(255,255,255,0.8);
+ }
+
+img{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid rgb(194, 164, 119) ;
+    border-radius: 5px;
+}
+nav a {
+    color: rgba(59, 13, 13, 0.8);
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: rgba(59, 13, 13, 0.8);
+    text-decoration: underline; 
+}
+div{
+    text-align: center;
+}
